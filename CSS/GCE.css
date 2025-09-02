@@ -784,19 +784,19 @@ margin-left: 40px;
 
 .hero-gallery
 {
-    margin-left: 0px;
+    margin-left: 40px;
 }
 
 #header-review
 {
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 #review-card
 {
     display: grid;
     grid-template-columns: auto ;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 #grid-static
@@ -850,6 +850,32 @@ width: 50px;
 {
     width: 350px;
 }
+
+#arrow
+{
+    display: flex;
+    gap: 35px;
+    justify-content: start;
+    position: relative;
+    top: 900px;
+    left: 160px;
+}
+
+#left-arrow
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+#right-arrow
+{
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
 
 }
 
