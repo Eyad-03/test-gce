@@ -738,7 +738,118 @@ left: 10px;
   .chev.next{ left: 60px; }
 
 
+#maingrid-header
+{
+    grid-template-columns: auto;
+    gap: 10px;
+}
 
+#gridone-header 
+{
+    margin-left: 0px;
+
+}
+
+#gridone-header h1
+{
+    width: 385px;
+    font-size: 35px;
+}
+
+#gridone-header p
+{
+    width: 360px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+
+#grid-2023
+{
+
+grid-template-columns: auto;
+margin-left: 40px;
+}
+
+.gce-title h3
+{
+    width: 470px;
+}
+
+.gce-title
+{
+    margin-left: 14px;
+}
+
+.hero-gallery
+{
+    margin-left: 0px;
+}
+
+#header-review
+{
+    margin-left: 80px;
+}
+
+#review-card
+{
+    display: grid;
+    grid-template-columns: auto ;
+    margin-left: 10px;
+}
+
+#grid-static
+{
+    width: 340px;
+}
+
+.static-number
+{
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.static-domain
+{
+    width: 300px;
+    height: 100px;
+}
+
+.static-number p
+{
+font-size: 12px;
+font-weight: 400;
+
+}
+
+.static-one
+{
+    gap: 0px;
+}
+
+
+.static-number h4
+{
+
+width: 50px;
+}
+
+.static-number p
+{
+width: 50px;
+}
+
+.pre-project
+{
+    width: 350px;
+}
 
 }
 
